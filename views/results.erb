@@ -1,0 +1,19 @@
+<br>
+<br>
+<br>
+<br>
+<br>
+<% if math_type == "subtraction" %>
+<%	result = subtraction(num1.to_f, num2.to_f) %>
+
+<% elsif math_type == "addition" %>
+<%	result = addition(num1.to_f, num2.to_f) %>
+
+<% elsif math_type == "division" %>
+<%	result = division(num1.to_f, num2.to_f) %>
+
+<% elsif math_type == "multiplication" %>
+<%	result = multiplication(num1.to_f, num2.to_f) %>
+<% end %>
+ <%= result %>
+</body>
